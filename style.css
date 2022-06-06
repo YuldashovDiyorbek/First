@@ -12,10 +12,27 @@ body {
     position: relative;
     left: 50%;
     transform: translate(-50%, 50%);
-    background-color: aliceblue;
+    border: 1px solid white;
 }
 
 .container input {
     margin-top: 20px;
     padding: 10px;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+    border-radius: 5px;
 }
+
+
+.container input:nth-child(1) {
+   background: none;
+}
+.container input:nth-child(2) {
+    background: none;
+ }
+
+ .container input:nth-child(3) {
+    color: red;
+    font-size: 1.3em;
+ }
