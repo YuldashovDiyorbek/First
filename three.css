@@ -3,4 +3,5 @@ body {
     flex-direction: column;
     font-size: 3rem;
     letter-spacing: 20px;
+    padding: 30px;
 }
