@@ -11,5 +11,11 @@ body {
     height: 300px;
     position: relative;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 50%);
+    background-color: aliceblue;
+}
+
+.container input {
+    margin-top: 20px;
+    padding: 10px;
 }
